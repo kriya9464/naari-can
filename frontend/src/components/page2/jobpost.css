@@ -1,0 +1,61 @@
+.job_post{
+    display:flex;
+    flex-direction: column;
+    width:1300px;
+    /* border:1px solid black; */
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+    
+    padding:30px;
+    background-color: hsla(0, 0%, 100%, 0.204);
+    box-shadow: 5px 3px 5px hsla(0, 0%, 0%, 0.207);
+    
+}
+
+.post_head{
+    display:flex;
+    flex-direction: row;
+    padding-bottom:20px ;
+    justify-content: space-between;
+}
+
+.body_content{
+    color:white;
+    padding-bottom: 20px;
+}
+
+.post_footer{
+    display: flex;
+    flex-direction: row;
+    color:black;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    font-size: 18px;
+    
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+    
+}
+
+.contact_num{
+    display: flex;
+    /* padding-left: 40px;
+    padding-right: 10px; */
+    /* padding-bottom: 10px; */
+    padding: 5px 0px;
+}
+.email{
+    display: flex;
+    
+    padding-bottom: 5px;
+}
+
+/* .pay{
+    display: flex;
+    align-items: center;
+} */

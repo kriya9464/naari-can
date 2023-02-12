@@ -1,0 +1,95 @@
+.body{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    
+    
+    padding-bottom: 50px;
+}
+
+.forward{
+  
+    color:white;
+    color:black;
+    /* display: inline-block; */
+    
+}
+
+.forward .MuiSvgIcon-root{
+    position: sticky;
+    top:300px;
+}
+.forward .MuiSvgIcon-root:hover{
+    
+    transform: scale(2);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.126);
+    cursor: pointer;
+    padding:5px;
+}
+.backward{
+    padding-top:200px;
+    padding-left:5%;
+    padding-right: 100px;
+    color:white;
+   /*  display:inline-block ; */
+    
+}
+
+.backward .MuiSvgIcon-root{
+     
+    position: sticky;
+    top:300px;
+}
+
+.backward .MuiSvgIcon-root:hover{
+    
+    transform: scale(2);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.126);
+    cursor: pointer;
+    padding:5px;
+}
+
+.job_body{
+    margin: auto;
+    margin-top: 150px;
+  /*   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+}
+
+.toggle{
+    border:1px solid black;
+    margin-left:200px;
+    margin-right:200px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
+.toggle Button{
+    border:2px solid #271637;
+    background-color:#271637 ;
+    border-radius: 15px;
+    color:white;
+    margin-left: 20px;
+}
+
+.toggle Button:hover{
+    background-color: black;
+    transform:scale(1.1);
+}
+
+.pic {
+    display:flex;
+    width:50px;
+
+}
+
+.pic img{
+    width:200px;
+    border: 2px solid black;
+    border-radius: 15px;
+}

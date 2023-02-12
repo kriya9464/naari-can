@@ -1,0 +1,65 @@
+.work_container{
+    background-image: url('https://www.holyrood.com/siteimg/big/ugc-1/fullnews/news/7272/6366_original.jpg');
+    height:450px;
+    width:100%;
+  background-position:bottom;
+  background-repeat: no-repeat;
+  }
+
+.infodiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    border: 1px solid hsla(0, 0%, 0%, 0.34);
+    margin-top:2rem;
+    padding:1rem;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.247);
+    color:black;
+    margin-bottom: 200px;
+}
+
+.content{
+    padding-bottom: 1rem;
+}
+
+.content h2{
+  background-color: rgba(0, 0, 0, 0.618);
+}
+
+.btn{
+    background-color: #271637;
+    padding: 5px;
+    /* border-radius: 15px; */
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.react-responsive-modal-modal {
+    width: 600px;
+    height: 600px;
+  }
+
+  .carousel2{
+    display: flex;
+    padding-top: 20px;
+  }
+
+  .imgs2 > img{
+    width:250px;
+    height:130px;
+    border-radius: 10px;
+    
+}
+
+.imgs2 > img:hover{
+    transform:scale(1.3);
+    
+    border:5px solid hsla(0, 0%, 100%, 0.308);
+}
+
+.imgs2{
+  padding: 0px 20px;
+}

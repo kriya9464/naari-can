@@ -1,0 +1,30 @@
+.blogs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid rgba(0, 0, 0, 0.552);
+    margin-top: 2rem; */
+}
+
+.slider{
+    padding-top:200px;
+    
+    color:white;
+    
+}
+
+.slider .MuiSvgIcon-root{
+    position: sticky;
+    top:300px;
+    margin-right: 20px;
+}
+
+.slider .MuiSvgIcon-root:hover{
+    
+    transform: scale(2);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.126);
+    cursor: pointer;
+    padding:5px;
+    
+}

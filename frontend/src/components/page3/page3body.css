@@ -1,0 +1,77 @@
+.page3body{
+    display: flex;
+    flex-direction: row;
+}
+
+.forward{
+    padding-top:200px;
+      padding-left:50px; 
+      color:white;
+      position: sticky;
+      top:300px;
+  }
+
+  .forward .MuiSvgIcon-root{
+    position: sticky;
+    top:300px;
+  }
+  
+  .forward .MuiSvgIcon-root:hover{
+      
+      transform: scale(2);
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.126);
+      cursor: pointer;
+      padding:5px;
+  }
+  .backward{
+      padding-top:200px;
+      padding-left:2%;
+      padding-right: 30px;
+      color:white;
+     position: sticky;
+     top: 300px;
+  }
+  
+  .backward .MuiSvgIcon-root{
+    position: sticky;
+    top: 300px;
+  }
+
+  .backward .MuiSvgIcon-root:hover{
+      
+      transform: scale(2);
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.126);
+      cursor: pointer;
+      padding:5px;
+  }
+
+  .toggle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .all_problems{
+    border:2px solid #271637;
+    border-radius: 15px;
+    margin-right: 50px;
+    color:white;
+    background-color:#271637 ;
+  }
+
+  .all_problems:hover, .most_supported:hover{
+    background-color: black;
+    transform: scale(1.1);
+  }
+
+
+  .most_supported{
+    border:2px solid #271637;
+    background-color:#271637 ;
+    border-radius: 15px;
+    color:white;
+  }

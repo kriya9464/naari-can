@@ -1,0 +1,63 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    padding-top: 1rem;
+    border:1px solid hsla(0, 0%, 0%, 0.388);
+    padding-bottom: 0.5rem;
+    background-color: hsla(0, 0%, 0%, 0.138);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.382);
+    position: sticky;
+    top:0px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    padding-right: 4rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+.pages{
+    padding: 0px 1rem;
+
+}
+.pages Button{
+    background-color: #271637;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.pages Button:hover{
+    background-color: black;
+}
+
+@media screen and (min-width:1200px){
+    .pages{
+        padding:0px 2rem;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .profile{
+        padding-left: 6rem;
+    }
+}
+
+@media screen and (min-width:95%){
+    .profile{
+        padding-left: 10rem;
+    }
+}
+
+
+.logo >img{
+    width:50px;
+}

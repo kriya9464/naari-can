@@ -1,0 +1,54 @@
+.problem_post{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    border:1px solid black;
+    margin:50px auto ;
+    padding:30px;
+    background-color: hsla(0, 0%, 100%, 0.129);
+    border:1px solid hsla(0, 0%, 0%, 0.247);
+    border-radius: 15px;
+    
+    box-shadow: 5px 3px 5px hsla(0, 0%, 0%, 0.207);
+
+}
+
+.problem_head{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user >h5{
+    padding-left: 10px;
+}
+
+.problem_body{
+    color:white;
+    padding-bottom:20px ;
+    
+}
+
+.problem_footer{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.vote{
+    padding-right: 100px;
+    cursor: pointer;
+}
+
+.comment{
+    cursor: pointer;
+}
+
+
+
